@@ -1,0 +1,57 @@
+.customMatrixContainer {
+    overflow: auto;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 12px;
+}
+
+.customMatrix {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 11px;
+    
+    th,
+    td {
+        border: 1px solid #ccc;
+        padding: 3px;
+        text-align: center;
+        border: 1px solid white;
+    }
+    
+    th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    td {
+        text-align: right;
+    }
+    
+    tr:hover {
+        background-color: #ddd;
+    }
+    
+    .totalRow {
+        background-color: #f2f2f2;
+        font-weight: bold;
+    }
+}
+
+.customMatrix td.bad {
+    background-color: #FFD5D5;
+    color: #D64550;
+    font-weight: bold;
+}
+
+.customMatrix td.good {
+    background-color: #DCFFD4;
+    color: #10AE8E;
+    font-weight: bold;
+}
+
+.customMatrix td.rh {
+    background-color: #f2f2f2;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}

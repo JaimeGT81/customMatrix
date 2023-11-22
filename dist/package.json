@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Jaime Guerra","email":"jaime.guerra.pe@gmail.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/customMatrix65190D7E3EF14C42BD007796160B5437.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"customMatrix","displayName":"CustomMatrix","guid":"customMatrix65190D7E3EF14C42BD007796160B5437","visualClassName":"Visual","version":"1.0.0","description":"Tabla para analisis de competitividad","supportUrl":"N/A","gitHubUrl":""},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}
